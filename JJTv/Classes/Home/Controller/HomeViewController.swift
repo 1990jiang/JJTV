@@ -35,7 +35,12 @@ extension HomeViewController {
     
     private func setupNavigationBar(){
         
+        // 1.左侧logoItem
+        let logoImage = UIImage(named: "home-logo")
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: logoImage, style: .plain, target: nil, action: nil)
         
+        // 2.设置右侧收藏的item
+
         
         
     }
