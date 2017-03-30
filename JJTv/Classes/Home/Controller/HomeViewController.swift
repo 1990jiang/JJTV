@@ -18,7 +18,7 @@ class HomeViewController: UIViewController {
         view.backgroundColor = UIColor.randomColor()
     }
 
-    }
+}
 
 // MARK:- 设置UI界面
 //private:表示只有在当前作用域才能调用
@@ -28,7 +28,7 @@ extension HomeViewController {
     fileprivate func setupUI(){
         
         setupNavigationBar()
-        
+        setupContentView()
         
     }
     
@@ -63,6 +63,11 @@ extension HomeViewController {
     
 
     
+    fileprivate func setupContentView() {
+        
+        
+        
+    }
     
     
 }
